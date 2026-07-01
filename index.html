@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savar Shetty — AI & ML Portfolio</title>
+  
+  <!-- Iconify Icons -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition-overlay active"></div>
+
+  <!-- Grain Overlay Effect -->
+  <div class="bg-grain"></div>
+
+  <!-- Navigation (Pill Shaped) -->
+  <div class="fixed-nav-wrapper">
+    <nav class="pill-nav animate-slide-up">
+      <!-- Logo Area -->
+      <div class="logo-area">
+        <div class="logo-icon">
+          <iconify-icon icon="solar:cpu-bold-duotone" width="18"></iconify-icon>
+        </div>
+        <span class="logo-text">SAVAR</span>
+      </div>
+
+      <!-- Links -->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Overview</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="hackathons.html" class="nav-link">Hackathons</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="nav-btn" aria-label="Search">
+          <iconify-icon icon="solar:magnifer-linear" width="20"></iconify-icon>
+        </button>
+        <button class="nav-btn nav-menu-btn" aria-label="Menu">
+          <iconify-icon icon="solar:menu-dots-square-linear" width="20"></iconify-icon>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu">
+    <button class="mobile-menu-close nav-btn" aria-label="Close Menu">
+      <iconify-icon icon="solar:close-circle-linear" width="32"></iconify-icon>
+    </button>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link active">Overview</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="hackathons.html" class="mobile-nav-link">Hackathons</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&amp;fit=crop&amp;w=3840&amp;q=80" class="hero-img animate-cinematic" alt="Abstract Neural Mesh Background">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Floating Node Indicator -->
+    <div class="telemetry-widget" style="bottom: auto; top: 7.5rem; right: 3rem; left: auto;">
+      <div class="px-4 py-2 glass-card" style="padding: 0.75rem 1.25rem; border-radius: 0.75rem;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span class="telemetry-dot"></span>
+          <span style="font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: white;">
+            Node: Symbiosis SSPU
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-tag animate-slide-up" style="animation-delay: 0.2s;">
+            <span class="hero-tag-line"></span>
+            <span>Savar Satish Shetty</span>
+          </div>
+
+          <h1 class="hero-title animate-slide-up" style="animation-delay: 0.4s;">
+            Agentic
+            <div style="display: flex; align-items: baseline; gap: 1rem; margin-top: -1rem;">
+              <span class="italic-blur">&amp;</span>
+              <span>Neural</span>
+            </div>
+          </h1>
+        </div>
+
+        <div class="hero-right">
+          <div class="glass-card animate-slide-up" style="animation-delay: 0.6s;">
+            <div class="card-shimmer"></div>
+            <div class="card-content">
+              <p class="card-desc">
+                Specializing in Artificial Intelligence and Machine Learning. Engineering reinforcement learning models and autonomous workflows to bridge algorithms with raw compute.
+              </p>
+
+              <div class="stats-grid">
+                <div>
+                  <span class="stat-label">Hackathons</span>
+                  <span class="stat-value">03+</span>
+                </div>
+                <div>
+                  <span class="stat-label">Focus</span>
+                  <span class="stat-value">AI/ML</span>
+                </div>
+              </div>
+
+              <a href="projects.html" class="card-link magnetic">
+                <span>View Project Log</span>
+                <iconify-icon icon="solar:arrow-right-linear" width="18"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div style="position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 0.5rem; z-index: 10;">
+      <span style="font-family: var(--font-mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.2em; color: rgba(255, 255, 255, 0.4);">
+        Interactive Terminal
+      </span>
+      <div style="width: 1px; height: 2.5rem; background: linear-gradient(to bottom, rgba(255,255,255,0.4), transparent);"></div>
+    </div>
+
+    <!-- Model Convergence Stats Panel -->
+    <div class="telemetry-widget animate-slide-up" style="animation-delay: 0.8s;">
+      <div class="telemetry-header">
+        <span>Model.Training</span>
+        <span class="telemetry-dot"></span>
+        <span>V. 1.0.4</span>
+      </div>
+      <div class="telemetry-panel">
+        <div class="telemetry-row">
+          <span class="telemetry-label">Convergence Stability</span>
+          <span class="telemetry-val" style="color: var(--color-accent-green)">99.9%</span>
+        </div>
+        <div class="telemetry-progress-bar">
+          <div class="telemetry-fill"></div>
+        </div>
+        <div class="telemetry-grid">
+          <div>
+            <span class="telemetry-label" style="font-size: 0.6rem; text-transform: uppercase; display: block;">Loss Min</span>
+            <span class="telemetry-val">0.002</span>
+          </div>
+          <div>
+            <span class="telemetry-label" style="font-size: 0.6rem; text-transform: uppercase; display: block;">Accuracy</span>
+            <span class="telemetry-val">98.4%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Matrix Section -->
+  <main class="container" style="padding-top: 4rem; padding-bottom: 8rem;">
+    <div class="section-title-wrapper animate-on-scroll">
+      <span class="section-meta">
+        <iconify-icon icon="solar:terminal-bold-duotone"></iconify-icon>
+        Interface Matrix
+      </span>
+      <h2 class="section-title">
+        Simulated <span class="section-title-faded">AI Core.</span>
+      </h2>
+      <div class="section-title-glow-line"></div>
+    </div>
+
+    <!-- Interactive Terminal Widget -->
+    <div class="terminal-card animate-on-scroll delay-100">
+      <div class="terminal-header-bar">
+        <div class="terminal-dots">
+          <div class="terminal-dot-ctrl dot-red"></div>
+          <div class="terminal-dot-ctrl dot-yellow"></div>
+          <div class="terminal-dot-ctrl dot-green"></div>
+        </div>
+        <div class="terminal-title">savar-ai-node-telemetry</div>
+        <div style="width: 2.25rem;"></div>
+      </div>
+      <div class="terminal-body" id="terminal-body-container">
+        <div id="terminal-output"></div>
+        <div class="terminal-input-row">
+          <span class="terminal-prompt">savar-terminal &gt;</span>
+          <input type="text" id="terminal-input" class="terminal-input-field" placeholder="Type command here..." autofocus autocomplete="off" spellcheck="false">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Animated Divider -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <div class="divider-node">
+      <div class="divider-dot"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-left">
+        <div class="logo-icon" style="width: 2.5rem; height: 2.5rem; font-size: 1.25rem;">S</div>
+        <div>
+          <span class="footer-logo-text">SAVAR SHETTY</span>
+          <p class="footer-desc">Engineering neural automation & reinforcement workflows.</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Overview</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="projects.html" class="footer-link">Projects</a>
+          <a href="hackathons.html" class="footer-link">Hackathons</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <span class="footer-copy">© 2026 Savar Shetty. All operations active.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/particles.js"></script>
+</body>
+</html>
