@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Savar Shetty — Telemetry Endpoint</title>
+  
+  <!-- Iconify Icons -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition-overlay active"></div>
+
+  <!-- Grain Overlay Effect -->
+  <div class="bg-grain"></div>
+
+  <!-- Navigation (Pill Shaped) -->
+  <div class="fixed-nav-wrapper">
+    <nav class="pill-nav">
+      <!-- Logo Area -->
+      <div class="logo-area">
+        <div class="logo-icon">
+          <iconify-icon icon="solar:cpu-bold-duotone" width="18"></iconify-icon>
+        </div>
+        <span class="logo-text">SAVAR</span>
+      </div>
+
+      <!-- Links -->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Overview</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="hackathons.html" class="nav-link">Hackathons</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </div>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="nav-btn" aria-label="Search">
+          <iconify-icon icon="solar:magnifer-linear" width="20"></iconify-icon>
+        </button>
+        <button class="nav-btn nav-menu-btn" aria-label="Menu">
+          <iconify-icon icon="solar:menu-dots-square-linear" width="20"></iconify-icon>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu">
+    <button class="mobile-menu-close nav-btn" aria-label="Close Menu">
+      <iconify-icon icon="solar:close-circle-linear" width="32"></iconify-icon>
+    </button>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Overview</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="hackathons.html" class="mobile-nav-link">Hackathons</a>
+      <a href="contact.html" class="mobile-nav-link active">Contact</a>
+    </div>
+  </div>
+
+  <!-- Main Body Content -->
+  <main style="padding-top: 8rem; padding-bottom: 8rem;">
+    
+    <section class="container">
+      
+      <div class="section-title-wrapper animate-on-scroll">
+        <span class="section-meta">
+          <iconify-icon icon="solar:letter-bold-duotone"></iconify-icon>
+          Telemetry Endpoint
+        </span>
+        <h2 class="section-title">
+          Connect <span class="section-title-faded">Operations.</span>
+        </h2>
+        <div class="section-title-glow-line"></div>
+      </div>
+
+      <div class="contact-grid" style="margin-top: 3rem;">
+        
+        <!-- Left Column: Contact info and social hubs -->
+        <div class="contact-info-panel animate-on-scroll delay-100">
+          <p style="font-size: 1.15rem; font-weight: 300; line-height: 1.7; color: var(--color-text-secondary);">
+            Open to collaborative projects, automated neural pipeline configurations, or technical ML consultations. Reach out through the direct channel or via the social clusters.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            
+            <!-- Email -->
+            <div class="contact-card-sub">
+              <div class="contact-icon-sub">
+                <iconify-icon icon="solar:unread-chat-bold-linear" width="24"></iconify-icon>
+              </div>
+              <div>
+                <span class="contact-label-sub">Direct Mail Node</span>
+                <span class="contact-val-sub">savar.satish.shetty@gmail.com</span>
+              </div>
+            </div>
+
+            <!-- Focus area -->
+            <div class="contact-card-sub">
+              <div class="contact-icon-sub">
+                <iconify-icon icon="solar:gps-bold-linear" width="24"></iconify-icon>
+              </div>
+              <div>
+                <span class="contact-label-sub">Geographic Domain</span>
+                <span class="contact-val-sub">India (SSPU Node)</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <span class="contact-label-sub" style="display: block; margin-bottom: 0.75rem;">Social Hubs</span>
+            <div class="contact-social-grid">
+              <a href="#" class="social-circle-btn magnetic" aria-label="GitHub">
+                <iconify-icon icon="logos:github-icon" width="24"></iconify-icon>
+              </a>
+              <a href="#" class="social-circle-btn magnetic" aria-label="LinkedIn">
+                <iconify-icon icon="logos:linkedin-icon" width="24"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Glassmorphic Message Form -->
+        <div class="contact-form-wrapper animate-on-scroll delay-200">
+          <h3 class="form-title">Send Dispatch</h3>
+          <form onsubmit="event.preventDefault(); alert('Message dispatched! Operations node logged.');" style="display: flex; flex-direction: column; gap: 1rem;">
+            
+            <!-- Name Input -->
+            <div class="form-group">
+              <input type="text" id="name" class="form-input" placeholder=" " required autocomplete="name">
+              <label for="name" class="form-label">Name</label>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+              <input type="email" id="email" class="form-input" placeholder=" " required autocomplete="email">
+              <label for="email" class="form-label">Email Node</label>
+            </div>
+
+            <!-- Message Textarea -->
+            <div class="form-group form-textarea-wrapper">
+              <textarea id="message" class="form-input form-textarea" placeholder=" " required></textarea>
+              <label for="message" class="form-label">Message Payload</label>
+            </div>
+
+            <button type="submit" class="form-submit-btn magnetic">
+              <span>Dispatch Message</span>
+              <iconify-icon icon="solar:alt-arrow-right-bold-linear" width="18"></iconify-icon>
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Animated Divider -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <div class="divider-node">
+      <div class="divider-dot"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-left">
+        <div class="logo-icon" style="width: 2.5rem; height: 2.5rem; font-size: 1.25rem;">S</div>
+        <div>
+          <span class="footer-logo-text">SAVAR SHETTY</span>
+          <p class="footer-desc">Engineering neural automation & reinforcement workflows.</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Overview</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="projects.html" class="footer-link">Projects</a>
+          <a href="hackathons.html" class="footer-link">Hackathons</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <span class="footer-copy">© 2026 Savar Shetty. All operations active.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/particles.js"></script>
+</body>
+</html>
