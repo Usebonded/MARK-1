@@ -1,3 +1,41 @@
-Mark 1: Portfolio Website (v1.0)Welcome to Mark 1, the very first iteration of my personal portfolio website. This project serves as a clean, minimalist digital sandbox designed to showcase my academic projects, programming foundation, and technical interests as I kick off my journey in tech.As a first prototype, the core focus of Mark 1 is clean structure, responsive layout, and solid fundamentals.🚀 Project OverviewThe goal of this prototype is to establish a personal digital presence and create a structured way to present my work to potential collaborators, peers, and mentors. It acts as a centralized hub for my engineering projects, skills inventory, and technical writing.Key SectionsHero / About Me: A brief introduction to who I am, my current academic path, and my core areas of focus.Projects Showcase: A clean grid featuring active development work, complete with tech stacks and links to source code.Technical Toolkit: A visual breakdown of the programming languages and frameworks I use.Contact / Connect: Direct pathways to reach out via email, LinkedIn, or GitHub.🛠️ Tech Stack & ArchitectureTo keep the prototype lightweight, lightning-fast, and easily deployable, I built Mark 1 using foundational web technologies:Frontend Structure: HTML5Styling & Responsiveness: CSS3 (utilizing Flexbox/Grid for cross-device layout compatibility)Interactivity (Optional): Vanilla JavaScript (for smooth scrolling and dynamic interactive elements)Deployment: GitHub Pages / Vercel (or insert your hosting platform here)📈 Featured Projects IncludedThis repository doesn't just host the site; the portfolio itself highlights several core engineering and automated system projects:Stock Trading Bot Using Reinforcement Learning – An automated trading system utilizing ML architectures to identify market patterns.Rapid Crisis Response System – A technical logic framework designed for immediate coordination during emergency scenarios.Data Structures & Algorithms Sandbox – A collection of optimized scripts demonstrating core programming foundations in C, C++, and Python.⚙️ Local Setup & InstallationWant to run this prototype locally on your machine? Follow these quick steps:1.Clone the Repository:Requires Git.Open your terminal and run the following command to clone the project:Bashgit clone https://github.com/your-username/mark-1-portfolio.git
-2.Navigate to the Directory:Command Line.Change your working directory to the project folder:Bashcd mark-1-portfolio
-3.Launch the Site:Browser / Live Server.Simply double-click the index.html file to open it in your browser, or use the Live Server extension in VS Code for real-time updates while editing.🔮 Future Roadmap (Mark 2 & Beyond)As this is a prototype, I am using it to identify areas of improvement for the next iteration. Future upgrades will include:Integrating dynamic data visualization components (like Matplotlib/Seaborn-inspired web charts).Migrating to a component-based frontend framework (like React) for better state management.Adding a dark/light mode toggle for improved user accessibility.📄 LicenseThis project is open-source and available under the MIT License. Feel free to fork it, tinker with it, or use it as inspiration for your own v1 portfolio!
+# 🌐 MARK-1 // SAVAR.AI_NODE
+
+[![Status](https://img.shields.io/badge/Status-ACTIVE-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.4-blue.svg)]()
+[![Deployment](https://img.shields.io/badge/Host-GitHub_Pages-orange.svg)](https://usebonded.github.io/MARK-1/)
+
+Welcome to **MARK-1**, the first iteration of my personal portfolio website. Designed as a simulated **AI Core / Telemetry Interface**, this site serves as the central deployment hub for my academic progress, technical engineering work, and hackathon participation.
+
+> **System Telemetry:** 
+> `Convergence Stability: 99.9%` | `Loss Min: 0.002` | `Accuracy: 98.4%`
+
+---
+
+## 🚀 Live Environment
+
+🔗 **Explore the Interface:** [usebonded.github.io/MARK-1/](https://usebonded.github.io/MARK-1/)
+
+---
+
+## 🛠️ Tech Stack & Philosophy
+
+The architectural design choice behind **MARK-1** is a dark, terminal-inspired aesthetic built to showcase projects bridging raw compute with autonomous algorithms.
+
+*   **Frontend Architecture:** Production-ready HTML5 & Semantic Web Structure.
+*   **Styling & Interface Matrix:** Clean, responsive CSS3 using advanced Flexbox/Grid layouts.
+*   **Aesthetic Direction:** Cybernetic/Neural telemetry simulation with data-driven UI layouts.
+*   **Hosting:** Distributed statically via GitHub Pages.
+
+---
+
+## 🗂️ Core Matrix Directory
+
+The architecture is split into modular nodes for seamless indexing:
+
+```text
+├── index.html       # Overview Dashboard (Simulated AI Core)
+├── about.html       # Academic Context & Focus Areas
+├── projects.html    # Engineering Log (Reinforcement Learning & Automated Systems)
+├── hackathons.html  # Competitive Performance Records (03+ Hackathons)
+├── contact.html     # Secure Connection Protocols & Social Links
+└── css/             # Stylesheets driving the terminal aesthetic
